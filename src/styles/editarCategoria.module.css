@@ -1,0 +1,211 @@
+.editarCategoria {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    .fromeditarCategoria {
+
+        p {
+            font-size: 16px;
+            margin-top: 20px;
+            opacity: 60%;
+        }
+
+        .tittleEditar {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+
+            h2 {
+                font-size: 30px;
+                font-weight: 450;
+            }
+
+        }
+
+        .editarNome {
+            margin-top: 40px;
+
+            h3 {
+                font-size: 19px;
+                font-weight: 500;
+            }
+
+            input {
+                margin-top: 30px;
+                width: 450px;
+                padding: 17px;
+                border-radius: 10px;
+                border: none;
+                outline: none;
+                background-color: #F0F2F5;
+
+
+                &::placeholder {
+                    font-size: 16px;
+                    opacity: 80%;
+                    color: black;
+                }
+            }
+
+        }
+
+        .editarDesc {
+            margin-top: 40px;
+
+            h3 {
+                font-size: 19px;
+                font-weight: 500;
+            }
+
+            textarea {
+                display: block;
+                padding-bottom: 150px;
+                padding-left: 15px;
+                margin-top: 30px;
+                width: 450px;
+                height: 200px;
+                border-radius: 10px;
+                border: none;
+                outline: none;
+                background-color: #F0F2F5;
+                resize: none;
+                padding: 12px;
+
+                &::placeholder {
+
+                    font-size: 16px;
+                    opacity: 80%;
+                    color: black;
+                }
+            }
+
+        }
+
+    }
+
+    .botoes {
+        display: flex;
+        margin-top: 50px;
+        gap: 20px;
+
+        .buttonCancelar {
+
+            button {
+                position: relative;
+                cursor: pointer;
+                background-color: #F0F2F5;
+                color: black;
+                border-radius: 8px;
+                border: none;
+                width: 140px;
+                padding: 12px;
+                font-size: 17px;
+                font-weight: 450;
+                overflow: hidden;
+                z-index: 0;
+                transition: color 0.3s ease;
+
+                &::before {
+                    content: "";
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    width: 0;
+                    height: 100%;
+                    background-color: #D0D3D8;
+                    z-index: -1;
+                    transition: width 0.3s ease;
+                }
+
+                &:hover::before {
+                    width: 100%;
+                }
+
+                &:hover {
+                    color: black;
+                }
+            }
+        }
+
+        .buttonSalvar {
+
+            button {
+                position: relative;
+                cursor: pointer;
+                background-color: #0C1B30;
+                color: white;
+                border-radius: 8px;
+                border: none;
+                width: 140px;
+                padding: 12px;
+                font-size: 17px;
+                font-weight: 450;
+                overflow: hidden;
+                z-index: 0;
+                transition: color 0.3s ease;
+
+                &::before {
+                    content: "";
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    width: 0;
+                    height: 100%;
+                    background-color: #3b4553;
+                    z-index: -1;
+                    transition: width 0.3s ease;
+                }
+
+                &:hover::before {
+                    width: 100%;
+                }
+
+                &:hover {
+                    color: rgb(255, 255, 255);
+                }
+            }
+        }
+
+        .buttonDeletar {
+
+            button {
+                position: relative;
+                cursor: pointer;
+                background-color: #e90b0b;
+                color: white;
+                border-radius: 8px;
+                border: none;
+                width: 140px;
+                padding: 12px;
+                font-size: 17px;
+                font-weight: 450;
+                overflow: hidden;
+                z-index: 0;
+                transition: color 0.3s ease;
+
+                &::before {
+                    content: "";
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    width: 0;
+                    height: 100%;
+                    background-color: #bd1a1a;
+                    z-index: -1;
+                    transition: width 0.3s ease;
+                }
+
+                &:hover::before {
+                    width: 100%;
+                }
+
+                &:hover {
+                    color: white;
+                }
+            }
+        }
+    }
+
+}

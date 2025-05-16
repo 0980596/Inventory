@@ -1,0 +1,64 @@
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 50px 0px;
+
+    .tittle {
+
+        .logo {
+            width: 40px;
+            height: 40px;
+        }
+
+        h2 {
+            font-weight: 700;
+            font-size: 25px;
+        }
+
+        a {
+            text-decoration: none;
+            display: flex;
+            gap: 10px;
+            color: black;
+        }
+
+    }
+
+    nav {
+        a {
+            text-decoration: none;
+            color: black;
+            margin-left: 40px;
+            font-size: 18px;
+            font-weight: 500;
+        }
+    }
+
+    .barraPesquisa {
+        display: flex;
+        background-color: #F0F2F5;
+        width: 280px;
+        padding: 10px;
+        border-radius: 10px;
+        gap: 5px;
+
+        .icon {
+            color: black;
+            opacity: 60%;
+            cursor: pointer;
+        }
+
+        input {
+            background: none;
+            border: none;
+            outline: none;
+            width: 85%;
+        }
+
+        input::placeholder {
+            color: black;
+            opacity: 60%;
+        }
+    }
+}

@@ -1,0 +1,23 @@
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 0px;
+    gap: 100px;
+
+    .footertittle {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+
+        h2 {
+            font-size: 20px;
+        }
+    }
+
+    .desenvlvedor {
+        h2 {
+            font-size: 20px;
+        }
+    }
+}

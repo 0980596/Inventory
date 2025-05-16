@@ -1,0 +1,120 @@
+.inicio {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 10%;
+
+  .tittleContainerCat {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+    .iconeCat {
+      width: 55px;
+      height: 55px;
+      padding: 15px 15px;
+      border-radius: 8px;
+      color: #0C1B30;
+      background-color: #F0F2F5;
+    }
+
+    h2 {
+      font-size: 22px;
+      font-weight: 700;
+    }
+
+    p {
+      font-size: 16px;
+      font-weight: 500;
+    }
+  }
+
+  .addButon {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    background-color: #0C1B30;
+    gap: 10px;
+    padding: 16px;
+    border-radius: 5px;
+
+    a {
+      text-decoration: none;
+      font-size: 17px;
+      font-weight: 500;
+      color: white;
+    }
+
+    .addicone {
+      width: 22px;
+      height: 22px;
+      color: white;
+    }
+  }
+
+}
+
+.containerCat {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 100px 300px;
+  gap: 30px;
+
+  .categoriaDetalhes {
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    height: 220px;
+    padding: 20px;
+    border-radius: 8px;
+
+    .nomeCat {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+
+      .catIcone {
+        width: 45px;
+        height: 45px;
+        padding: 10px 10px;
+        border-radius: 8px;
+        color: #0C1B30;
+        background-color: #F0F2F5;
+      }
+
+      h2 {
+        font-size: 24px;
+        font-weight: 650;
+      }
+
+    }
+
+    .descCat {
+      padding: 20px 0px;
+
+      p {
+        overflow-wrap: break-word;
+      }
+    }
+
+    .btn {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+
+      a {
+        text-decoration: none;
+        color: #09336d;
+
+        &:hover {
+          transition: ease-in-out 0.30s;
+          color: #223755;
+        }
+      }
+
+
+    }
+  }
+
+}

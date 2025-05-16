@@ -1,0 +1,209 @@
+.heroContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .tittleHero {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+
+        h2 {
+            text-align: center;
+            width: 780px;
+            font-size: 40px;
+            font-weight: 700;
+        }
+
+        p {
+            padding: 20px 0px;
+            text-align: center;
+            width: 650px;
+            font-size: 20px;
+            font-weight: 450;
+            color: #121212;
+        }
+
+    }
+
+    .btn {
+        display: flex;
+        padding: 20px 0px;
+        gap: 20px;
+
+        button {
+            padding: 12px 50px;
+            width: 220px;
+            font-size: 16px;
+            font-weight: 550;
+        }
+
+        .btnProdutos {
+
+            button {
+                border-radius: 8px;
+                color: #1E2A47;
+                background-color: #F0F2F5;
+                border: none;
+                cursor: pointer;
+
+                &:hover {
+                    background-color: #f0f2f5c9;
+                    color: #1e2a47b2;
+                    transition: .2s ease-in-out;
+                }
+            }
+
+        }
+
+        .btnCategorias {
+
+            button {
+                border-radius: 8px;
+                color: #000000;
+                background-color: transparent;
+                border: 1px solid #1E2A47;
+                cursor: pointer;
+
+                &:hover {
+                    border: 1px solid #00000065;
+                    color: #1e2a47ec;
+                    transition: .2s ease-in-out;
+                }
+            }
+
+        }
+    }
+
+}
+
+.conatinerWobblecard {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 50px;
+    gap: 20px;
+
+    .cardsinico {
+        display: flex;
+        gap: 20px;
+
+        .card1,
+        .card2 {
+            border-radius: 8px;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+
+            transform-style: preserve-3d;
+            perspective: 1000px;
+            cursor: pointer;
+            padding: 40px;
+        }
+
+        .card1 {
+            width: 820px;
+            height: 300px;
+            background: linear-gradient(135deg, #F0F2F5, #cfd9df);
+            display: flex;
+            justify-content: space-between;
+
+            h2 {
+                font-size: 30px;
+                width: 300px;
+                margin-bottom: 10px;
+                color: #121212;
+            }
+
+            p {
+                font-size: 18px;
+                width: 360px;
+                margin-top: 10px;
+                font-weight: 500;
+                color: #121212;
+            }
+
+            img {
+                width: 400px;
+                height: 250px;
+                border-top-left-radius: 8px;
+                border-top-right-radius: 8px;
+                margin-top: 10px;
+            }
+        }
+
+        .card2 {
+            width: 410px;
+            height: 300px;
+            background: linear-gradient(135deg, #0C1B30, #1E2A47);
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+
+            p {
+                color: white;
+                margin-top: 10px;
+            }
+
+            h2 {
+                color: white;
+                margin-bottom: 10px;
+            }
+        }
+
+        .card1:hover,
+        .card2:hover {
+            transform: rotateX(10deg) rotateY(20deg) scale(1.03);
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.25);
+        }
+    }
+
+    .card3 {
+        border-radius: 8px;
+        width: 1250px;
+        height: 300px;
+        padding: 40px;
+        background: linear-gradient(135deg, #F0F2F5, #0C1B30);
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+        transform-style: preserve-3d;
+        perspective: 1000px;
+        cursor: pointer;
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+
+        .inf {
+            h2 {
+                font-size: 26px;
+                width: 400px;
+                margin-bottom: 10px;
+                color: white;
+            }
+
+            p {
+                font-size: 16px;
+                width: 370px;
+                margin-top: 10px;
+                color: white;
+            }
+        }
+
+        img {
+            width: 500px;
+            height: 250px;
+            border-top-left-radius: 8px;
+            border-top-right-radius: 8px;
+            margin-top: 10px;
+        }
+
+    }
+
+    .card3:hover {
+        transform: rotateX(-10deg) rotateY(10deg) scale(1.03);
+        box-shadow: 0 20px 40px rgba(0, 0, 0, 0.25);
+    }
+}
