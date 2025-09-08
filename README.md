@@ -16,6 +16,11 @@
 - **Gestão Simplificada**  
   Ajuda a resolver problemas de desorganização no controle de produtos e categorias.
 
+  ## Tecnologias Utilizadas
+
+  - React
+  - CSS
+
   ## Observações
 
 ⚠️ Este projeto foi desenvolvido como um **trabalho de aprendizado**, não sendo um produto profissional. A ideia é praticar minhas habilidades em desenvolvimento web e criar algo funcional e útil para organização de produtos.
