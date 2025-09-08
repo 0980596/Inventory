@@ -1,6 +1,6 @@
 <img width="1436" height="941" alt="image" src="https://github.com/user-attachments/assets/c7834c50-20a1-48aa-8ee9-5648ab4e33ea" />
 
-## Olá! Este é meu projeto de Estoque Sou um aluno desenvolvedor e criei este projeto com o objetivo de **organizar produtos** de forma prática e resolver problemas como a falta de organização de inventários. Este projeto permite cadastrar e editar produtos e categorias, tornando a gestão de estoque mais eficiente e intuitiva. ---
+## Olá! Este é meu projeto de Estoque Sou um aluno desenvolvedor e criei este projeto com o objetivo de **organizar produtos** de forma prática e resolver problemas como a falta de organização de inventários. Este projeto permite cadastrar e editar produtos e categorias, tornando a gestão de estoque mais eficiente e intuitiva. 
 
 ## Funcionalidades
 
