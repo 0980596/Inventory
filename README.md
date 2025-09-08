@@ -19,6 +19,7 @@
   ## Tecnologias Utilizadas
 
   - React
+  - API
   - CSS
 
   ## Observações
